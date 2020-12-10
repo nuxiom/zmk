@@ -1,0 +1,16 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_BREADBOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Breadboard Left"
+
+endif
+
+if SHIELD_BREADBOARD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Breadboard Right"
+
+endif
